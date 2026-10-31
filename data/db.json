@@ -1,0 +1,455 @@
+{
+  "users": [
+    {
+      "id": "user_demo_1",
+      "name": "Sarah Jenkins",
+      "email": "demo@resumai.io",
+      "passwordHash": "98f6debd57778f5c8831c2d545fd27cd2825fe5a4f765e4d1401541a4a91e5f49a524ce52b1018d4b077befc5211dbdcd011967ac44716da6895b5ce6579ad63",
+      "salt": "4e1c856ad1ef733aa77b451c540dfe0c",
+      "targetRole": "Senior Full Stack Engineer",
+      "experienceLevel": "Mid-Level (3-5 yrs)",
+      "industry": "Software & Technology",
+      "createdAt": "2026-10-31T05:22:22.351Z"
+    },
+    {
+      "id": "user_1793424274954_ymtly",
+      "name": "sahana",
+      "email": "25p1318students@git.edu",
+      "passwordHash": "b20ce2bb090c6748f45417472391bdaa9223ca63f6b843b801268f8d21bae571c3dab690027182236acf283d75dfe188f95aeda81b4d5e414308d3634692650b",
+      "salt": "bb805d5027c6ed269201147f57647164",
+      "targetRole": "AI software engineer",
+      "experienceLevel": "Student/Fresher",
+      "industry": "Technology & Software",
+      "createdAt": "2026-10-31T05:24:34.954Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "tok_6fb3d47944c3b6a1577dbe6b70f4ffce44baf4eeb65826cd",
+      "userId": "user_1793424274954_ymtly",
+      "expiresAt": 1794029074961
+    }
+  ],
+  "analyses": [
+    {
+      "resumeFileName": "alex_resume.pdf",
+      "overallScore": 62,
+      "atsScore": 75,
+      "candidateInfo": {
+        "fullName": "Alex Rivera",
+        "email": "",
+        "phone": "",
+        "location": "",
+        "targetRoleDetected": "Senior Software Engineer",
+        "experienceYears": "4",
+        "summaryDetected": "4 years experience at CloudScale Tech."
+      },
+      "sectionScores": {
+        "skills": 85,
+        "experience": 50,
+        "education": 90,
+        "formatting": 60,
+        "impactAndMetrics": 40,
+        "readability": 70
+      },
+      "technicalSkills": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Redis",
+        "AWS"
+      ],
+      "softSkills": [
+        "Architecture",
+        "Analytical Thinking"
+      ],
+      "missingSkillsForRole": [
+        "CI/CD (Docker/Kubernetes)",
+        "System Design",
+        "Unit Testing (Jest/Cypress)",
+        "API Security",
+        "Agile/Scrum Methodology",
+        "Cloud Infrastructure as Code (Terraform)"
+      ],
+      "educationEvaluation": {
+        "score": 90,
+        "feedback": "Strong educational background from a top-tier institution with a high GPA.",
+        "detectedDegrees": [
+          "BS Computer Science, UC Berkeley"
+        ],
+        "recommendations": [
+          "Keep this at the bottom as it is well-established.",
+          "Consider mentioning relevant coursework if applying for more niche research-heavy roles."
+        ]
+      },
+      "experienceEvaluation": {
+        "score": 50,
+        "feedback": "Lacks detail. A single bullet point for 4 years of experience is insufficient for a Senior-level candidate.",
+        "rolesAnalyzed": [
+          {
+            "company": "CloudScale Tech",
+            "role": "Senior Software Engineer",
+            "duration": "4 years",
+            "strengths": [
+              "Demonstrates ability to handle scale (120k users)"
+            ],
+            "improvements": [
+              "Missing specific technical challenges",
+              "Lack of leadership or mentoring examples",
+              "No mention of the 'how' or 'why' behind the architecture"
+            ],
+            "suggestedBulletRewrite": {
+              "original": "Architected analytics dashboard for 120,000 daily users.",
+              "improved": "Architected and deployed a real-time analytics dashboard supporting 120,000 daily users, resulting in a 20% improvement in query performance by optimizing PostgreSQL indexing and Redis caching.",
+              "metricsAdded": "Added performance percentage (20%) and specific technology optimization details."
+            }
+          }
+        ]
+      },
+      "projectsEvaluation": {
+        "score": 0,
+        "feedback": "No separate projects section included.",
+        "detectedProjects": [],
+        "recommendations": [
+          "Add a 'Key Projects' section to showcase GitHub repositories or side projects that demonstrate extra-curricular passion."
+        ]
+      },
+      "certificationsEvaluation": {
+        "score": 20,
+        "detected": [],
+        "recommendedToAcquire": [
+          "AWS Certified Developer – Associate",
+          "Certified Kubernetes Application Developer (CKAD)"
+        ]
+      },
+      "keyStrengths": [
+        "High-impact user-scale experience",
+        "Strong technical stack foundation",
+        "Top-tier educational pedigree",
+        "Clear, concise language"
+      ],
+      "criticalWeaknesses": [
+        "Missing contact information",
+        "Insufficient depth of experience (too brief)",
+        "Lack of professional summary/narrative",
+        "Absence of soft skills or leadership context"
+      ],
+      "grammarSuggestions": [
+        {
+          "original": "Architected analytics dashboard",
+          "suggestion": "Architected an analytics dashboard",
+          "reason": "Articles (a/an/the) improve flow and readability."
+        }
+      ],
+      "formattingFeedback": {
+        "verdict": "Needs Structural Tuning",
+        "bulletPointAnalysis": "Bullets are currently too sparse; require more depth and outcome-oriented framing.",
+        "fontAndStructureAdvice": "Standardize layout to ensure headers are clearly delineated for ATS parsing.",
+        "lengthAdvice": "Candidate is underselling themselves; expand to at least 1-1.5 pages by adding more project detail."
+      },
+      "actionableImprovements": {
+        "improvedProfessionalSummary": "High-performing Senior Software Engineer with 4 years of experience specializing in full-stack architecture and scalable cloud solutions. Proven track record of building robust dashboards for high-traffic environments. Seeking to leverage expertise in React, TypeScript, and AWS to drive engineering excellence in a forward-thinking team.",
+        "strongerActionVerbs": [
+          "Engineered",
+          "Spearheaded",
+          "Optimized",
+          "Deployed",
+          "Integrated",
+          "Automated",
+          "Mentored",
+          "Orchestrated"
+        ],
+        "measurableMetricsTips": [
+          "Use percentages for efficiency gains",
+          "Include dollar amounts for cost savings or revenue impact",
+          "Cite specific throughput numbers or latency reductions",
+          "Mention team size or mentorship frequency"
+        ],
+        "atsChecklist": [
+          {
+            "check": "Standard section headers",
+            "passed": true,
+            "tip": "Current headers are clear."
+          },
+          {
+            "check": "No complicated multi-column layouts",
+            "passed": true,
+            "tip": "Formatting is safe."
+          },
+          {
+            "check": "Clear contact info",
+            "passed": false,
+            "tip": "Missing email and phone number."
+          },
+          {
+            "check": "Chronological work history",
+            "passed": true,
+            "tip": "Included, but lacks detail."
+          },
+          {
+            "check": "Strong keyword density",
+            "passed": true,
+            "tip": "Tech stack is well-represented."
+          },
+          {
+            "check": "Clean bulleted lists",
+            "passed": false,
+            "tip": "Too few bullets; expand content."
+          }
+        ]
+      },
+      "extractedResumeText": "Alex Rivera Senior Software Engineer 4 years experience at CloudScale Tech. Languages: TypeScript, JavaScript, Python. Frontend: React, Next.js, Tailwind CSS. Backend: Node.js, Express, PostgreSQL, Redis, AWS. Work Experience: Architected analytics dashboard for 120,000 daily users. Education: BS Computer Science UC Berkeley GPA 3.8.",
+      "stats": {
+        "wordCount": 43,
+        "charCount": 335,
+        "pageEstimate": 1
+      },
+      "id": "ana_1793425106154_ohmkg",
+      "createdAt": "2026-10-31T05:38:26.154Z"
+    },
+    {
+      "resumeFileName": "test.txt",
+      "overallScore": 38,
+      "atsScore": 45,
+      "candidateInfo": {
+        "fullName": "John Doe",
+        "email": "Not provided",
+        "phone": "Not provided",
+        "location": "Not provided",
+        "targetRoleDetected": "Full Stack Software Developer",
+        "experienceYears": "4 years",
+        "summaryDetected": "None detected"
+      },
+      "sectionScores": {
+        "skills": 58,
+        "experience": 32,
+        "education": 45,
+        "formatting": 22,
+        "impactAndMetrics": 15,
+        "readability": 40
+      },
+      "technicalSkills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "SQL"
+      ],
+      "softSkills": [],
+      "missingSkillsForRole": [
+        "Git / Version Control",
+        "Docker / Containerization",
+        "AWS / Cloud Services",
+        "RESTful APIs / GraphQL",
+        "CI/CD Pipelines",
+        "Automated Testing (Jest / Cypress)",
+        "Agile / Scrum Methodologies"
+      ],
+      "educationEvaluation": {
+        "score": 50,
+        "feedback": "Degree major is clearly stated (BS Computer Science), but lacks university name, graduation year, and any honors or relevant coursework.",
+        "detectedDegrees": [
+          "BS Computer Science"
+        ],
+        "recommendations": [
+          "Include the accredited institution name and location (City, State).",
+          "Add your graduation month and year (or expected graduation date).",
+          "Add relevant coursework, academic honors, or capstone project highlights if graduated recently."
+        ]
+      },
+      "experienceEvaluation": {
+        "score": 30,
+        "feedback": "The experience section contains only a high-level summary phrase without distinct bullet points, date ranges, technical scope, or measurable business impact.",
+        "rolesAnalyzed": [
+          {
+            "company": "Acme Corp",
+            "role": "Software Developer",
+            "duration": "4 years (exact dates unlisted)",
+            "strengths": [
+              "Demonstrates continuous 4-year tenure at a single organization.",
+              "Lists modern core stack technologies (React, Node, TypeScript)."
+            ],
+            "improvements": [
+              "Lacks specific start and end dates (MM/YYYY - MM/YYYY).",
+              "Contains no quantifiable metrics, KPIs, or business outcomes.",
+              "Describes general duties rather than tangible engineering accomplishments."
+            ],
+            "suggestedBulletRewrite": {
+              "original": "4 years experience at Acme Corp building web applications.",
+              "improved": "Architected and delivered 6 responsive full-stack web applications at Acme Corp using React, Node.js, and TypeScript, improving user engagement by 35% and reducing page load latency by 42%.",
+              "metricsAdded": "Quantified number of delivered applications (6), performance increase (35% user engagement), and performance optimization (42% latency reduction)."
+            }
+          }
+        ]
+      },
+      "projectsEvaluation": {
+        "score": 10,
+        "feedback": "No dedicated personal, open-source, or commercial projects were detected. Project portfolios are critical for software developer profiles.",
+        "detectedProjects": [],
+        "recommendations": [
+          "Add a 'Projects' section featuring 2-3 significant full-stack applications with GitHub and live demo URLs.",
+          "Detail the architecture, database schema, third-party integrations, and problem solved for each project."
+        ]
+      },
+      "certificationsEvaluation": {
+        "score": 0,
+        "detected": [],
+        "recommendedToAcquire": [
+          "AWS Certified Developer - Associate",
+          "Meta Front-End Developer Professional Certificate",
+          "OpenJS Node.js Application Developer (JSNAD)"
+        ]
+      },
+      "keyStrengths": [
+        "Core technology stack (React, Node.js, TypeScript) is in extremely high demand.",
+        "Holds a foundational Bachelor of Science degree in Computer Science.",
+        "Demonstrates 4 years of professional experience, placing the candidate at mid-level standing.",
+        "Clean textual input without ATS-breaking graphical artifacts."
+      ],
+      "criticalWeaknesses": [
+        "Completely missing candidate contact details (email, phone, location, LinkedIn, GitHub).",
+        "Absence of quantitative impact, metrics, or performance outcomes across all work.",
+        "No distinct resume structure; text is entered as a single unstructured paragraph.",
+        "Missing chronological employment dates (month/year format).",
+        "Missing core modern engineering competencies such as cloud, CI/CD, testing, and Git."
+      ],
+      "grammarSuggestions": [
+        {
+          "original": "Node",
+          "suggestion": "Node.js",
+          "reason": "Industry standard technical naming convention for ATS and recruiter clarity."
+        },
+        {
+          "original": "4 years experience at Acme Corp building web applications.",
+          "suggestion": "Over four years of experience at Acme Corp engineering scalable web applications.",
+          "reason": "Replaces conversational phrasing with active, professional engineering syntax."
+        }
+      ],
+      "formattingFeedback": {
+        "verdict": "Needs Immediate Structural Overhaul",
+        "bulletPointAnalysis": "No standard bullet points present. Experience is collapsed into an informal sentence fragment.",
+        "fontAndStructureAdvice": "Organize into conventional reverse-chronological sections: Header/Contact, Professional Summary, Technical Skills, Professional Experience, Projects, and Education.",
+        "lengthAdvice": "For a developer with 4 years of experience, format as a comprehensive, well-spaced 1-page document."
+      },
+      "actionableImprovements": {
+        "improvedProfessionalSummary": "Full Stack Software Developer with 4 years of experience building high-performance web applications using React, Node.js, and TypeScript. Proven track record at Acme Corp in translating complex requirements into scalable frontend interfaces and reliable backend APIs. Passionate about clean code architecture, automated testing, and delivering user-centric digital experiences.",
+        "strongerActionVerbs": [
+          "Architected",
+          "Engineered",
+          "Spearheaded",
+          "Refactored",
+          "Implemented",
+          "Accelerated",
+          "Optimized",
+          "Deployed",
+          "Integrated",
+          "Automated"
+        ],
+        "measurableMetricsTips": [
+          "State performance gains (e.g., 'reduced API response times by 28% via query optimization').",
+          "Quantify traffic scale or user volume (e.g., 'supporting 100k+ daily active users').",
+          "Highlight code quality and reliability outcomes (e.g., 'increased test coverage from 45% to 85% with Jest').",
+          "Showcase business or product delivery velocity (e.g., 'shortened release cycles by 2 weeks via CI/CD pipelines')."
+        ],
+        "atsChecklist": [
+          {
+            "check": "Standard section headers (Experience, Education, Skills)",
+            "passed": false,
+            "tip": "Split into standardized capitalized headings: SUMMARY, SKILLS, EXPERIENCE, EDUCATION."
+          },
+          {
+            "check": "No complicated multi-column layouts or tables",
+            "passed": true,
+            "tip": "Keep plain single-column linear text layout."
+          },
+          {
+            "check": "Clear contact info (email, phone, LinkedIn/GitHub)",
+            "passed": false,
+            "tip": "Immediately add email address, telephone number, city/state, LinkedIn, and GitHub links at the top."
+          },
+          {
+            "check": "Chronological work history with clear dates",
+            "passed": false,
+            "tip": "Specify start and end dates in MM/YYYY format for Acme Corp."
+          },
+          {
+            "check": "Strong keyword density matching industry standards",
+            "passed": false,
+            "tip": "Incorporate keywords like REST APIs, Git, Unit Testing, CI/CD, and Cloud into bullets."
+          },
+          {
+            "check": "Clean bulleted accomplishment lists without graphics",
+            "passed": false,
+            "tip": "Convert prose descriptions into 3-5 action-verb led accomplishment bullet points."
+          }
+        ]
+      },
+      "extractedResumeText": "John Doe software developer React Node TypeScript 4 years experience at Acme Corp building web applications. Education: BS Computer Science. Skills: JavaScript, React, Node, CSS, HTML, SQL.",
+      "stats": {
+        "wordCount": 27,
+        "charCount": 189,
+        "pageEstimate": 1
+      },
+      "id": "ana_1793424996049_dima3",
+      "createdAt": "2026-10-31T05:36:36.049Z"
+    }
+  ],
+  "jobMatches": [
+    {
+      "jobTitle": "Senior Frontend Engineer",
+      "company": "FinTech Velocity",
+      "jobDescription": "Looking for a Senior Frontend Engineer with TypeScript, React, Next.js, and CSS expertise.",
+      "matchScore": 65,
+      "verdict": "Moderate Match",
+      "matchingSkills": [
+        "TypeScript",
+        "React"
+      ],
+      "missingSkills": [
+        "Next.js",
+        "CSS"
+      ],
+      "matchedKeywords": [
+        "Senior"
+      ],
+      "missingKeywords": [
+        "Next.js",
+        "CSS",
+        "Frontend"
+      ],
+      "experienceMatchAnalysis": "The candidate holds a Senior Software Engineer title, aligning well with the seniority requirement. However, the technical stack reflects a Full-Stack profile (Node.js, AWS, PostgreSQL) rather than a dedicated Frontend specialist. While TypeScript and React are strong foundations, the lack of explicit mention of Next.js and CSS—core requirements for this specific Frontend role—suggests a potential gap in current frontend tooling expertise.",
+      "actionableGapClosure": [
+        "Add a dedicated 'Technical Skills' section highlighting Frontend-specific frameworks and styling tools.",
+        "Explicitly list 'Next.js' in the skills section or highlight a project where Next.js was utilized.",
+        "Ensure 'CSS' (or modern variants like Tailwind/SASS) is explicitly mentioned to satisfy ATS parsing requirements.",
+        "Tailor the professional summary to emphasize 'Frontend Architecture' rather than generic 'Software Engineering'.",
+        "Highlight specific UI/UX-focused projects in the experience section to demonstrate frontend-specific seniority."
+      ],
+      "tailoredSummarySuggestion": "Senior Frontend Engineer with deep expertise in TypeScript and React ecosystem. Proven track record of building performant, scalable user interfaces and leveraging modern frameworks like Next.js to deliver high-quality web experiences. Seeking to drive frontend development initiatives at FinTech Velocity by combining robust coding standards with efficient UI implementation.",
+      "topTailoringPoints": [
+        {
+          "section": "Skills Section",
+          "advice": "Group technologies into 'Frontend' and 'Backend' categories to clearly signal your frontend specialization to ATS scanners."
+        },
+        {
+          "section": "Professional Summary",
+          "advice": "Explicitly mention your experience with component-based architecture and modern styling frameworks to align with the 'CSS expertise' requirement."
+        },
+        {
+          "section": "Work Experience",
+          "advice": "Rewrite bullet points for your previous roles to emphasize frontend metrics, such as page load time improvements, accessibility compliance, or UI component library development."
+        }
+      ],
+      "id": "match_1793425129408_f47e3",
+      "createdAt": "2026-10-31T05:38:49.408Z"
+    }
+  ]
+}

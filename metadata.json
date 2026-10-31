@@ -1,0 +1,6 @@
+{
+  "name": "ResumAI - AI Resume & ATS Analyzer",
+  "description": "Professional AI-powered resume analyzer, ATS compatibility scorer, and job description matcher powered by Google Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
