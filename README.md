@@ -1,20 +1,75 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+🚀 ResumAI – AI-Powered Resume Builder
 
-# Run and deploy your AI Studio app
+ResumAI is an AI-powered resume builder that helps users create professional and attractive resumes with ease.
 
-This contains everything you need to run your app locally.
+📸 Project Screenshots
+🏠 Homepage
 
-View your app in AI Studio: https://ai.studio/apps/a38d5fcf-2f70-4c2d-9f04-5661c6ea8d80
+!Homepage
 
-## Run Locally
+📝 Resume Builder
 
-**Prerequisites:**  Node.js
+!Resume Builder
+
+📄 Resume Preview
+
+!Resume Preview
+
+🤖 AI Features
+
+!AI Features
+
+✨ Features
+AI-powered resume assistance using Google Gemini
+Create and edit professional resumes
+Resume templates
+Live resume preview
+Easy-to-use user interface
+
+Only keep features that are actually implemented.
+
+🛠️ Tech Stack
+React
+TypeScript
+Vite
+Node.js
+Google Gemini API
+⚙️ Installation
+1. Clone the repository
+bash
+git clone https://github.com/sahanaa-kk/ResumAI.git
+
+2. Open the project
+bash
+cd ResumAI
+
+3. Install dependencies
+bash
+npm install --legacy-peer-deps
+
+4. Configure Gemini API
+
+Create a .env.local file in the project root:
+
+env
+GEMINI_API_KEY=your_gemini_api_key
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Get your API key from Google AI Studio.
+
+Never upload your API key to GitHub.
+
+5. Run the application
+bash
+npm run dev
+
+
+Open the local URL displayed in your terminal.
+
+👩‍💻 Author
+
+Sahana
+
+GitHub: @sahanaa-kk
+
+⭐ If you like this project, please give it a star on GitHub!
